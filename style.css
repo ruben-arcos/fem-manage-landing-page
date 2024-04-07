@@ -167,3 +167,11 @@ svg {
 .fs-400 { font-size: var(--fs-400); }
 .fs-500 { font-size: var(--fs-500); }
 .fs-600 { font-size: var(--fs-600); }
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
