@@ -16,17 +16,39 @@
   <body>
     <header class="primary-header">
       <div class="container">
-        <a href="#"><img src="images/logo.svg" alt="Manage" /></a>
-        <nav class="primary-navigation">
-          <ul aria-label="Primary" role="list" class="nav-list capitalize">
-            <li><a href="#">pricing</a></li>
-            <li><a href="#">product</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">careers</a></li>
-            <li><a href="#">community</a></li>
-          </ul>
-        </nav>
-        <button class="button capitalize">get started</button>
+        <div class="nav-wrapper">
+          <a href="#"><img src="images/logo.svg" alt="Manage" /></a>
+          <button
+            class="mobile-nav-toggle capitalize"
+            aria-controls="primary-navigation"
+          >
+            <img
+              class="icon-hamburger"
+              src="images/icon-hamburger.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <img
+              class="icon-close"
+              src="images/icon-close.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="visually-hidden">menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list capitalize">
+              <li><a href="#">pricing</a></li>
+              <li><a href="#">product</a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">careers</a></li>
+              <li><a href="#">community</a></li>
+            </ul>
+          </nav>
+          <button class="button capitalize" style="display: none">
+            get started
+          </button>
+        </div>
       </div>
     </header>
 
