@@ -276,6 +276,7 @@ p[data-width="wide"] {
   }
 }
 
+/* how to add opacity to an image */
 .cta::before {
   content: "";
   position: absolute;
