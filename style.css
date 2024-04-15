@@ -467,6 +467,25 @@ input:where([type="text"], [type="email"], ) {
   }
 }
 
+/* slider  */
+
+.slider {
+  display: flex;
+  gap: var(--size-600);
+  list-style: none;
+}
+
+.a11y-slider-container {
+  margin-block: var(--size-700);
+  margin-inline: var(--size-400);
+}
+
+.slider > * {
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
 /* Utility classes */
 
 .visually-hidden {
@@ -622,9 +641,8 @@ input:where([type="text"], [type="email"], ) {
 }
 
 .margin-bottom-700 {
-margin-block-end: var(--size-700) ;
+  margin-block-end: var(--size-700);
 }
-
 
 .display-sm-none {
   display: none;
