@@ -563,6 +563,27 @@ input:where([type="text"], [type="email"], ) {
   top: 0;
 } */
 
+
+/* image with blob bg */
+
+.image-with-blob-bg {
+  /* position: relative; */
+}
+
+.image-with-blob-bg::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  width: 380px;
+  aspect-ratio: 1 / ç1.3;
+  background:  url("images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  border: 1px solid red;
+}
+
 /* Utility classes */
 
 .visually-hidden {
